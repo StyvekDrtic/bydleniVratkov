@@ -1,0 +1,17 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Nad Prahou | Moderní bydlení v Horoměřicích
+description: Nadstandardní bydlení v Horoměřicích v klidné části s výhledem na Pražský hrad - na prodej
+keywords: Horoměřice, rodinné domy, Praha, bydlení, nízkoenergetický dům, okraj Prahy, klidná lokalita, doprava, metro, příroda, klidné, letiště, škola, na prodej
+author: palmmedia.co
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://bydlenihoromerice.cz" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown

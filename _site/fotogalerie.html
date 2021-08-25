@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html>
+  <!--
+
+Ahoj!
+tenhle web vytvořila skupina PalmMedia.co
+
+        __ _.--..--._ _
+     .-' _/   _/\_   \_'-.
+    |__ /   _/\__/\_   \__|
+       |___/\_\__/  \___|
+              \__/
+              \__/
+               \__/
+                \__/
+             ____\__/___
+       . - '             ' -.
+      /                      \
+~~~~~~~  ~~~~~ ~~~~~  ~~~ ~~~  ~~~~~
+  ~~~   ~~~~~   ~!~~   ~~ ~  ~ ~ ~pjb
+
+líbí se ti? chtěl by si podobný? koukni na naše stránky
+
+-->
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Nad Prahou | Moderní bydlení v Horoměřicích</title>
+  <meta name="description" content="Nadstandardní bydlení v Horoměřicích v klidné části s výhledem na Pražský hrad - na prodej">
+  <meta name="keywords" content="Horoměřice, rodinné domy, Praha, bydlení, nízkoenergetický dům, okraj Prahy, klidná lokalita, doprava, metro, příroda, klidné, letiště, škola, na prodej">
+  <meta name="author" content="palmmedia.co">
+  <meta name="language" content="cs">
+
+  <link rel="stylesheet" href="assets/css/main.css?v=18">
+  <link rel="stylesheet" href="assets/js/photoswipe/photoswipe.css">
+  <link rel="stylesheet" href="assets/js/photoswipe/default-skin.css">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150469697-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-150469697-2');
+  </script>
+
+
+</head>
+
+
+  <body>
+
+    <header>
+  <div class="horniHeader">
+    <a href="/">
+      <img class="logo" src="assets/img/logo.png" alt="logo">
+    </a>
+    <div class="rychlyKontakty">
+      <div class="napisteNam">
+        <span>Napište nám</span>
+        <a href="mailto:michal.kocourek@obchodsrealitami.cz">michal.kocourek@obchodsrealitami.cz</a>
+      </div>
+      <div class="rozdelovak"></div>
+      <div class="zavolejteNam">
+        <span>Zavolejte nám</span>
+        <a href="tel:+420776300756">+420 776 300 756</a>
+      </div>
+    </div>
+    <div class="rychlyKontakty2">
+      <a href="tel:+420776300756"><i class="fa fa-phone" aria-hidden="true"></i></a>
+      <div class="rozdelovak"></div>
+      <a href="mailto:michal.kocourek@obchodsrealitami.cz"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    </div>
+  </div>
+  <div class="dolniHeader">
+    <nav>
+      <ul>
+        <li >
+          <a href="/">Domů</a>
+        </li>
+        <li >
+          <a href="/domy">Domy</a>
+        </li>
+        <li  class="active">
+          <a href="/fotogalerie">Fotogalerie</a>
+        </li>
+        <li >
+          <a href="/ceny">Ceny</a>
+        </li>
+        <li >
+          <a href="/kontakt">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides.
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+      <div class="wraper">
+        <section class="vrstva fotogalerie">
+  <h1>Fotogalerie</h1>
+</section>
+<div class="obrazky">
+  <div class="picture">
+
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/nad_prahou-5.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/nad_prahou-5.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/nad_prahou-7.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/nad_prahou-7.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/nad_prahou-35.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/nad_prahou-35.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/nad_prahou-37.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/nad_prahou-37.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/nad_prahou-38.jpg" itemprop="contentUrl" data-size="1320x1980" data-index="0">
+        <img src="assets/img/galerie/min/nad_prahou-38.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/nad_prahou-61.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/nad_prahou-61.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/nad_prahou-64.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/nad_prahou-64.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/nad_prahou-67.jpg" itemprop="contentUrl" data-size="1889x1320" data-index="0">
+        <img src="assets/img/galerie/min/nad_prahou-67.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/nad_prahou-68.jpg" itemprop="contentUrl" data-size="1930x1320" data-index="0">
+        <img src="assets/img/galerie/min/nad_prahou-68.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/nad_prahou-65.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/nad_prahou-65.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+
+
+
+
+
+
+
+
+
+
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice1.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice1.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice2.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice2.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice3.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice3.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice4.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice4.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice5.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice5.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice6.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice6.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice7.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice7.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice8.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice8.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice9.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice9.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice10.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice10.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice11.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice11.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice12.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice12.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice13.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice13.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice14.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice14.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice15.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice15.jpg" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice16.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice16.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice17.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice17.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice18.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice18.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice19.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice19.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice20.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice20.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice21.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice21.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice22.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice22.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice23.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice23.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <!--<figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice24.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice24.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice25.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice25.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice26.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice26.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>-->
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/horomerice27.jpg" itemprop="contentUrl" data-size="1980x1320" data-index="0">
+        <img src="assets/img/galerie/min/horomerice27.jpg" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+
+
+<!--
+
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/Dvojdum0001.jpg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/Dvojdum0001.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/Dvojdum0002.jpg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/Dvojdum0002.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/Dvojdum0003.jpg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/Dvojdum0003.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/Dvojdum0004.jpg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/Dvojdum0004.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+-->
+
+
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/dron1.JPG" itemprop="contentUrl" data-size="4000x3000" data-index="0">
+        <img src="assets/img/galerie/min/dron1.JPG" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/dron2.JPG" itemprop="contentUrl" data-size="4000x3000" data-index="0">
+        <img src="assets/img/galerie/min/dron2.JPG" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/dron3.JPG" itemprop="contentUrl" data-size="4000x3000" data-index="0">
+        <img src="assets/img/galerie/min/dron3.JPG" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/dron4.JPG" itemprop="contentUrl" data-size="4000x3000" data-index="0">
+        <img src="assets/img/galerie/min/dron4.JPG" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/dron5.JPG" itemprop="contentUrl" data-size="4000x3000" data-index="0">
+        <img src="assets/img/galerie/min/dron5.JPG" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/dron6.JPG" itemprop="contentUrl" data-size="4000x3000" data-index="0">
+        <img src="assets/img/galerie/min/dron6.JPG" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/dron7.JPG" itemprop="contentUrl" data-size="4000x3000" data-index="0">
+        <img src="assets/img/galerie/min/dron7.JPG" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/dron8.JPG" itemprop="contentUrl" data-size="4000x3000" data-index="0">
+        <img src="assets/img/galerie/min/dron8.JPG" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/dron9.JPG" itemprop="contentUrl" data-size="4000x3000" data-index="0">
+        <img src="assets/img/galerie/min/dron9.JPG" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/dron10.JPG" itemprop="contentUrl" data-size="4000x3000" data-index="0">
+        <img src="assets/img/galerie/min/dron10.JPG" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/dron11.JPG" itemprop="contentUrl" data-size="4000x3000" data-index="0">
+        <img src="assets/img/galerie/min/dron11.JPG" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+
+
+
+
+
+
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/novFoto1.jpg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/novFoto1.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/novFoto2.jpg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/novFoto2.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/novFoto3.jpg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/novFoto3.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/novFoto4.jpg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/novFoto4.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/novFoto5.jpg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/novFoto5.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/novFoto6.jpg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/novFoto6.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/novFoto7.jpg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/novFoto7.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/novFoto8.jpg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/novFoto8.jpg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+
+
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto1.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto1.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure><!--
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto2.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto2.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto3.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto3.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto4.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto4.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto5.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto5.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto6.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto6.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto7.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto7.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto8.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto8.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>-->
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto9.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto9.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure><!--
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto10.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto10.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto11.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto11.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto12.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto12.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>-->
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto13.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto13.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure><!--
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto14.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto14.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto15.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto15.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto16.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto16.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto17.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto17.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto18.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto18.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto19.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto19.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>-->
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto20.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto20.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure><!--
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto21.jpeg" itemprop="contentUrl" data-size="960x1600" data-index="0">
+        <img src="assets/img/galerie/min/foto21.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto22.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto22.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto24.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto24.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto25.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto25.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto26.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto26.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>-->
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto27.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto27.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <!--
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto28.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto28.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto29.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto29.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>-->
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto30.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto30.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure><!--
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto31.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto31.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto32.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto32.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto33.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto33.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto34.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto34.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto35.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto35.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto36.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto36.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto37.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto37.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto38.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto38.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto39.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto39.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>
+    <figure itemprop="associatedMedia">
+      <a href="assets/img/galerie/max/foto40.jpeg" itemprop="contentUrl" data-size="1600x960" data-index="0">
+        <img src="assets/img/galerie/min/foto40.jpeg" height="200" width="150" itemprop="thumbnail" alt="fotka">
+      </a>
+    </figure>-->
+  </div>
+</div>
+
+      </div>
+
+    <footer>
+  <div class="footerInner">
+    <img class="logo" src="assets/img/logo.png" alt="logo">
+    <div class="navigace">
+      <ul class="navigaceInner">
+        <li class="oddil oddilStranky">
+          <h4>Stránky</h4>
+          <ul class="prvni">
+            <li>
+              <a href="/">Domů</a>
+            </li>
+            <li>
+              <a href="/domy">Domy</a>
+            </li>
+            <li>
+              <a href="/fotogalerie">Fotogalerie</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="/ceny">Ceny</a>
+            </li>
+            <li>
+              <a href="/kontakt">Kontakt</a>
+            </li>
+          </ul>
+        </li>
+        <li class="oddil oddilKontakt">
+          <h4>Kontakt</h4>
+          <ul class="prvni">
+            <li>
+              <div class="emojiWrap emojiObalka">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+              </div>
+              <a href="mailto:michal.kocourek@obchodsrealitami.cz">michal.kocourek@obchodsrealitami.cz</a>
+            </li>
+            <li>
+              <div class="emojiWrap">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+              </div>
+              <a href="tel:+420776300756">+420 776 300 756</a>
+            </li>
+          </ul>
+          <!--
+          <ul class="social">
+            <li>
+              <a href="http://facebook.com/bydleniSvojetice">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="http://instagram.com/bydleniSvojetice">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+              </a>
+            </li>
+
+          </ul>
+        </li>-->
+        <li class="oddil oddilFinancovani">
+          <h4>Financování</h4>
+          <a>
+            <img src="assets/img/banka.jpg" alt="Hypoteční banka">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="credits">
+    <p>web vytvořil <a href="https://palmmedia.co/">PalmMedia.co</a></p>
+  </div>
+  <script src="assets/js/photoswipe/photoswipe.min.js"></script>
+  <script src="assets/js/photoswipe/photoswipe-ui-default.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="assets/js/app.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120238583-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120238583-1');
+  </script>
+</footer>
+
+
+  </body>
+</html>

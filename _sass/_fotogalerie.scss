@@ -1,0 +1,60 @@
+.fotogalerie {
+  position: relative;
+
+  h1 {
+    font-family: medium;
+    font-size: 40px;
+    max-width: 900px;
+    width: calc(100% - 80px);
+    margin: 0 auto;
+    padding: 35px 0;
+
+    @media screen and (max-width: 500px) {
+      width: calc(100% - 40px);
+      padding: 20px 0;
+    }
+  }
+}
+
+.obrazky {
+  background: #F9F9F9;
+  box-shadow:         0 0 20px 0 rgba(0,0,0,0.20);
+  -moz-box-shadow:    0 0 20px 0 rgba(0,0,0,0.20);
+  -webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,0.20);
+  z-index: 6;
+  position: relative;
+  text-align: center;
+
+  .picture {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: calc(100% - 50px);
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: calc(100vh - 170px - 311px - 118px - 50px);
+  }
+
+  figure {
+    margin: 15px;
+    display: inline-block;
+
+    a {
+      width: 100%;
+      height: 100%;
+    }
+
+    img {
+      height: 200px;
+      width: 266px;
+      border-radius: 5px;
+      box-shadow:         0 0 20px 0 rgba(0,0,0,0.20);
+      -moz-box-shadow:    0 0 20px 0 rgba(0,0,0,0.20);
+      -webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,0.20);
+    }
+
+    @media screen and (max-width: 500px) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+<header>
+  <div class="horniHeader">
+    <a href="/">
+      <img class="logo" src="assets/img/logo.png" alt="logo">
+    </a>
+    <div class="rychlyKontakty">
+      <div class="napisteNam">
+        <span>Napište nám</span>
+        <a href="mailto:michal.kocourek@obchodsrealitami.cz">michal.kocourek@obchodsrealitami.cz</a>
+      </div>
+      <div class="rozdelovak"></div>
+      <div class="zavolejteNam">
+        <span>Zavolejte nám</span>
+        <a href="tel:+420776300756">+420 776 300 756</a>
+      </div>
+    </div>
+    <div class="rychlyKontakty2">
+      <a href="tel:+420776300756"><i class="fa fa-phone" aria-hidden="true"></i></a>
+      <div class="rozdelovak"></div>
+      <a href="mailto:michal.kocourek@obchodsrealitami.cz"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    </div>
+  </div>
+  <div class="dolniHeader">
+    <nav>
+      <ul>
+        <li {% if page.url == '/' %} class="active" {% endif %}>
+          <a href="/">Domů</a>
+        </li>
+        <li {% if page.url == '/domy.html' %} class="active"{% endif %}>
+          <a href="/domy">Domy</a>
+        </li>
+        <li {% if page.url == '/fotogalerie.html' %} class="active"{% endif %}>
+          <a href="/fotogalerie">Fotogalerie</a>
+        </li>
+        <li {% if page.url == '/ceny.html' %} class="active"{% endif %}>
+          <a href="/ceny">Ceny</a>
+        </li>
+        <li {% if page.url == '/kontakt.html' %} class="active"{% endif %}>
+          <a href="/kontakt">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

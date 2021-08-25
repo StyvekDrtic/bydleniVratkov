@@ -1,0 +1,182 @@
+.jumbotron {
+  height: 580px;
+  width: 100%;
+  background: url("../img/jumbotron.jpg?a=1");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  h1 {
+    color: $white;
+    font-family: black;
+    -moz-text-shadow: 0 0 5px rgba(0,0,0,0.13);
+    -webkit-text-shadow: 0 0 5px rgba(0,0,0,0.13);
+    text-shadow: 0 0 5px rgba(0,0,0,0.13);
+    font-size: 55px;
+    text-align: center;
+    padding-top: 170px;
+    max-width: calc(100% - 40px);
+    margin: 0 auto;
+
+    @media screen and (max-width: 650px) {
+      font-size: 45px;
+      padding-top: 110px;
+    }
+
+    @media screen and (max-width: 550px) {
+      font-size: 40px;
+      padding-top: 100px;
+    }
+
+    @media screen and (max-width: 460px) {
+      font-size: 35px;
+    }
+
+    @media screen and (max-width: 410px) {
+      font-size: 30px;
+    }
+
+    @media screen and (max-width: 330px) {
+      padding-top: 40px;
+    }
+  }
+
+  .tlacitko {
+    margin: 0 auto;
+    text-align: center;
+    width: 105px;
+    display: block;
+    margin-top: 45px;
+
+    @media screen and (max-width: 410px) {
+      margin-top: 30px;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    height: 420px;
+  }
+
+  @media screen and (max-width: 500px) {
+    height: 390px;
+  }
+
+  @media screen and (max-width: 330px) {
+    height: 280px;
+  }
+}
+
+.highlights {
+  padding-bottom: 50px;
+
+  h2 {
+    font-family: medium;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px 0;
+    max-width: calc(100% - 40px);
+    margin: 0 auto;
+
+    .modra {
+      font-family: medium;
+    }
+
+    @media screen and (max-width: 500px) {
+      padding: 30px 0;
+      line-height: 40px;
+    }
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+    li {
+      list-style: none;
+      display: inline-block;
+      text-align: center;
+      width: 260px;
+      margin: 0 20px;
+      vertical-align: top;
+
+      p {
+        width: calc(100%);
+        margin: 0 auto;
+        font-size: 15px;
+        line-height: 25px;
+      }
+
+      h3 {
+        width: calc(100% - 10px);
+        margin: 0 auto;
+        font-family: bold;
+        margin-bottom: 15px;
+        font-size: 20px;
+      }
+
+      img {
+        max-width: 66px;
+        max-height: 61px;
+      }
+
+      .bus {
+        margin-top: 73px;
+      }
+
+      .peniz {
+        margin-top: 60px;
+      }
+
+      .strom {
+        margin-top: 26px;
+      }
+
+      @media screen and (max-width: 909px) {
+        margin-bottom: 50px;
+
+        &:last-child {
+          margin-bottom: 0px;
+        }
+      }
+
+      @media screen and (max-width: 340px) {
+        width: calc(100% - 40px);
+        margin: 0 auto;
+        margin-bottom: 50px;
+
+        &:last-child {
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }
+
+  .tlacitko {
+    background: $modra;
+    margin: 0 auto;
+    text-align: center;
+    width: 105px;
+    display: block;
+    margin-top: 40px;
+  }
+}
+
+
+.bannerSleva {
+  background: #ffeb3b;
+  padding: 10px 0;
+
+  p {
+    color: #2b2b2b;
+    text-align: center;
+    margin: 0;
+    font-family: medium;
+    width: calc(100% - 30px);
+    margin: 0 auto;
+
+    strong {
+      font-family: black;
+    }
+  }
+}
