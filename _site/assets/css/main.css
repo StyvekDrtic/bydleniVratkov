@@ -2612,12 +2612,12 @@ h1, h2, h3, h4, h5, p, span, a, li {
   font-size: 16px;
   color: #fff;
   text-decoration: none;
-  background: #D09683;
+  background: #4f9147;
   padding: 14px 30px;
   padding-bottom: 11px; }
 
 .tlacitko:hover {
-  background: #c2775e; }
+  background: #3c6f36; }
 
 .vrstva {
   background: #fff;
@@ -2629,7 +2629,7 @@ h1, h2, h3, h4, h5, p, span, a, li {
   outline: 0 !important; }
 
 .modra {
-  color: #42633e; }
+  color: #284ba5; }
 
 div:active {
   outline: none !important; }
@@ -2642,22 +2642,12 @@ a:active {
 
 .horniHeader {
   height: 90px;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#363237+0,73605b+100 */
-  background: #363237;
-  /* Old browsers */
-  background: -moz-linear-gradient(45deg, #363237 0%, #73605b 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, #363237 0%, #73605b 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, #363237 0%, #73605b 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#363237', endColorstr='#73605b',GradientType=1 );
-  /* IE6-9 fallback on horizontal gradient */
+  background-image: linear-gradient(162deg, #5E8752 2%, #2B532C 100%);
   z-index: 10;
   position: relative; }
   .horniHeader .logo {
-    height: 40px;
-    margin-top: calc((90px - 40px)/2);
+    height: 45px;
+    margin-top: calc((90px - 45px)/2);
     margin-left: 50px; }
     @media screen and (max-width: 850px) {
       .horniHeader .logo {
@@ -2777,7 +2767,7 @@ a:active {
         -webkit-transition: .2s;
         transition: .2s; }
         .dolniHeader ul li a:hover {
-          color: #D09683; }
+          color: #4f9147; }
         @media screen and (max-width: 850px) {
           .dolniHeader ul li a {
             line-height: 51px;
@@ -2786,7 +2776,7 @@ a:active {
         .dolniHeader ul li {
           padding: 0 20px; } }
     .dolniHeader ul .active {
-      border-bottom: 4px solid #D09683; }
+      border-bottom: 4px solid #4f9147; }
     @media screen and (max-width: 850px) {
       .dolniHeader ul {
         margin-left: 0; } }
@@ -2839,13 +2829,13 @@ footer {
   footer h4:after {
     content: "";
     width: 30%;
-    border-bottom: 2px solid #D09683;
+    border-bottom: 2px solid #4f9147;
     position: absolute;
     bottom: -2px;
     left: 0; }
 
 .navigace .navigaceInner {
-  min-height: 150px; }
+  min-height: 290px; }
 .navigace ul {
   padding: 0;
   text-align: center;
@@ -2963,7 +2953,7 @@ footer {
 .jumbotron {
   height: 580px;
   width: 100%;
-  background: url("../img/jumbotron.jpg?a=1");
+  background: url("../img/vizoska_dark.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
@@ -2973,9 +2963,9 @@ footer {
     -moz-text-shadow: 0 0 5px rgba(0, 0, 0, 0.13);
     -webkit-text-shadow: 0 0 5px rgba(0, 0, 0, 0.13);
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.13);
-    font-size: 55px;
+    font-size: 75px;
     text-align: center;
-    padding-top: 170px;
+    padding-top: 190px;
     max-width: calc(100% - 40px);
     margin: 0 auto; }
     @media screen and (max-width: 650px) {
@@ -3029,6 +3019,11 @@ footer {
       .highlights h2 {
         padding: 30px 0;
         line-height: 40px; } }
+  .highlights p {
+    width: calc(100% - 40px);
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto; }
   .highlights ul {
     padding: 0;
     margin: 0;
@@ -3073,7 +3068,7 @@ footer {
           .highlights ul li:last-child {
             margin-bottom: 0px; } }
   .highlights .tlacitko {
-    background: #42633e;
+    background: #284ba5;
     margin: 0 auto;
     text-align: center;
     width: 105px;
@@ -3129,13 +3124,13 @@ footer {
         #uvod ul li:nth-child(1):hover {
           background-color: #c87f0a; }
       #uvod ul li:nth-child(2) {
-        background: #D09683; }
+        background: #4f9147; }
         #uvod ul li:nth-child(2):hover {
-          background-color: #c2775e; }
+          background-color: #3c6f36; }
       #uvod ul li:nth-child(3) {
-        background: #42633e; }
+        background: #284ba5; }
         #uvod ul li:nth-child(3):hover {
-          background-color: #2d442a; }
+          background-color: #1e387c; }
       #uvod ul li:nth-child(4) {
         background: #773741; }
         #uvod ul li:nth-child(4):hover {
@@ -3175,7 +3170,7 @@ footer {
       width: calc(100% - 40px); } }
 
 .prechod1 {
-  background: url("../img/galerie/max/Dvojdum0002.jpg"); }
+  background: url("../img/vizoska.jpg"); }
 
 .prechod2 {
   background: url("../img/galerie/max/Dvojdum0003.jpg"); }
@@ -3245,7 +3240,7 @@ footer {
       display: inline-block;
       float: right; }
       #pudorysy .pudorysy .detailyBytu:hover {
-        background-color: #2d442a; }
+        background-color: #1e387c; }
       @media screen and (max-width: 380px) {
         #pudorysy .pudorysy .detailyBytu {
           display: inline-block;

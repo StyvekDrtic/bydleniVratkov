@@ -1,7 +1,7 @@
 .jumbotron {
   height: 580px;
   width: 100%;
-  background: url("../img/jumbotron.jpg?a=1");
+  background: url("../img/vizoska_dark.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -12,9 +12,9 @@
     -moz-text-shadow: 0 0 5px rgba(0,0,0,0.13);
     -webkit-text-shadow: 0 0 5px rgba(0,0,0,0.13);
     text-shadow: 0 0 5px rgba(0,0,0,0.13);
-    font-size: 55px;
+    font-size: 75px;
     text-align: center;
-    padding-top: 170px;
+    padding-top: 190px;
     max-width: calc(100% - 40px);
     margin: 0 auto;
 
@@ -85,6 +85,13 @@
       padding: 30px 0;
       line-height: 40px;
     }
+  }
+
+  p {
+    width: calc(100% - 40px);
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
   }
 
   ul {

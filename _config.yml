@@ -6,12 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Nad Prahou | Moderní bydlení v Horoměřicích
-description: Nadstandardní bydlení v Horoměřicích v klidné části s výhledem na Pražský hrad - na prodej
-keywords: Horoměřice, rodinné domy, Praha, bydlení, nízkoenergetický dům, okraj Prahy, klidná lokalita, doprava, metro, příroda, klidné, letiště, škola, na prodej
-author: palmmedia.co
+title: Dostupné bydlení Vrátkov
+description: Nadstandardní rodinné domy 4+KK. První etapa jedenácti domů bude dokončena v létě 2022.
+keywords: Vrátkov, Bydlení, rodinné domy
+author: Jiří Štěpánek
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bydlenivratkov.cz" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+
