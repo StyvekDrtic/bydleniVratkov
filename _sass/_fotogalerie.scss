@@ -25,6 +25,14 @@
   position: relative;
   text-align: center;
 
+  .vrstva {
+    margin-bottom: 80px;
+  }
+
+  .vrstvaInner {
+    max-width: none;
+  }
+
   .picture {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -44,8 +52,8 @@
     }
 
     img {
-      height: 200px;
-      width: 266px;
+      max-height: 200px;
+      max-width: 266px;
       border-radius: 5px;
       box-shadow:         0 0 20px 0 rgba(0,0,0,0.20);
       -moz-box-shadow:    0 0 20px 0 rgba(0,0,0,0.20);
